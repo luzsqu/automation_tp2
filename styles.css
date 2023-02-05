@@ -15,8 +15,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("Header1.png") repeat-y;
-    background-size: 400px 400px;
+    background-image: url('https://visme.co/blog/wp-content/uploads/2021/04/header-40.png');
+    height: 300px;
+   
 }
 
 /* estilos del titulo aqui */
@@ -36,21 +37,11 @@ body {
 .product-photo {
     object-fit: cover;
     border-style: dashed;
-    width: 200px;
-    height: 300px ;
+    border-width: 5px;
+    width: 300px;
+    height: 200px;
+    
 }
-
-/* estilos del precio aqui */
-
-
-/* E l título del header debe ser de color blanco, y tamaño de fuente de 70px
-el fondo del header debe ser esta imagen "https://visme.co/blog/wp-content/uploads/2021/04/header-40.png"
-el color de fondo del footer debe ser este: #005D79;
-el footer debe medir 100px de altura
-el titulo del footer debe tener tamaño de fuente de 25 pixeles
-el texto del precio de la camiseta debe tener un tamaño de fuente de 30px
-la foto del producto debe tener un borde como el que se ve en la foto.
-la foto del producto debe medir 200 de alto y 300 de ancho (en pixeles) */
 
 .price {
     font-size: 30px;
