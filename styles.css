@@ -1,0 +1,73 @@
+/* -------------------  SECCIÓN CON CODIGO CSS QUE NO DEBEN MODIFICAR --------------- */
+* { margin: 0; }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+/* --------------------------    fin de la sección ------------------------------- */
+
+
+
+/* estilos del header aqui */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Header1.png") repeat-y;
+    background-size: 400px 400px;
+}
+
+/* estilos del titulo aqui */
+.title {
+    font-size: 70px;
+    color: #fff;
+}
+
+/* no necesitan modificar nada del codigo de este container, dejen esas 3 lineas como estan. Tampoco agregar más */
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* estilos de la foto del producto (camiseta) aqui */
+.product-photo {
+    object-fit: cover;
+    border-style: dashed;
+    width: 200px;
+    height: 300px ;
+}
+
+/* estilos del precio aqui */
+
+
+/* E l título del header debe ser de color blanco, y tamaño de fuente de 70px
+el fondo del header debe ser esta imagen "https://visme.co/blog/wp-content/uploads/2021/04/header-40.png"
+el color de fondo del footer debe ser este: #005D79;
+el footer debe medir 100px de altura
+el titulo del footer debe tener tamaño de fuente de 25 pixeles
+el texto del precio de la camiseta debe tener un tamaño de fuente de 30px
+la foto del producto debe tener un borde como el que se ve en la foto.
+la foto del producto debe medir 200 de alto y 300 de ancho (en pixeles) */
+
+.price {
+    font-size: 30px;
+}
+
+/* estilos del footer aqui */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005D79;
+    font-size: 25px;
+    height: 100px;
+
+}
+
+/* estilos del mensaje del footer aqui */
+.message {
+    color: #fff;
+}
